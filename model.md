@@ -1,8 +1,7 @@
 # 系统分析与设计作业九
 ---
 ### 用例图
-   
-搜索歌曲并将歌曲添加到歌单中
+
 ![usecase](./img/usecase.png)
 ---
 ### 活动图
@@ -18,8 +17,10 @@
 - 如果用户已经登陆，可以添加歌曲到已有列表中
 - 用户可以删除列表
 
-- 事件有：{create, add songs, log in, log out}
-- 状态有：{new PlayList, accecptable, unaccecptable, deleted}
+**事件有：{create, add songs, log in, log out}**
+    
+    
+**状态有：{new PlayList, accecptable, unaccecptable, deleted}**
 
 ![state_model](./img/state_model.png)
 ---
